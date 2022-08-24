@@ -1,0 +1,1 @@
+console.log(Object.getOwnPropertyDescriptor([1,2,3]));
