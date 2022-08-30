@@ -10,3 +10,4 @@ console.dir(add);
 
 // 함수 호출
 console.log(add(2,5));; // 7
+
