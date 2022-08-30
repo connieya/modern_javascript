@@ -1,3 +1,3 @@
-console.log(score);
+console.log(score); // undefined
 
-var score;
+var score = 30;
