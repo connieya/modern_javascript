@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script>
+   var color = 'red';
+   function foo() {
+     var color = 'blue';
+     function bar() {
+       console.log(color);
+     }
+     return bar;
+   }
+   var baz = foo();
+   baz();
+ </script>
+</body>
+</html>
