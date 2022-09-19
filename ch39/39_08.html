@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<ul>
+  <li id="apple">Apple</li>
+  <li id="banana">Banana</li>
+  <li id="orange">Orange</li>
+</ul>
+<script>
+
+  // 태그 이름이 li인 요소 노드를 모두 탐색하여 반환한다.
+  // 탐색된 요소 노드들은 HTMLCollection 객체에 담겨 반환된다.
+  // HTMLCollection 객체는 유사 배열 객체이면서 이터러블이다.
+  const $elems = document.getElementsByTagName("li");
+
+
+  // 취득한 요소 노드의 style.color 프로퍼티 값을 변경한다.
+  // HTMLCollection 객체를 배열로 반환하여 순회하며 color 프로퍼티 값을 변경한다.
+  [... $elems].forEach(elem => {elem.style.color = 'red';});
+</script>
+</body>
+</html>

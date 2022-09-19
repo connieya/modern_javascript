@@ -235,7 +235,7 @@
   - 16.5.3 객체 동결
   - 16.5.4 불변 객체
 
-### 17장 생성자 함수에 의한 객체 생성
+### [17장 생성자 함수에 의한 객체 생성](ch17/17장.md)
 
 - 17.1 Object 생성자 함수
 - 17.2 생성자 함수
@@ -290,6 +290,22 @@
   - 19.11.1 Object.create에 의한 직접 상속
 
 - 19.12 정적 프로퍼티/메서드
+
+
+### 20장 strict mode
+
+- 20.1 strict mode 란?
+- 20.2 strict modde의 적용
+- 20.3 전역에 strict mode를 적용하는 것은 피하자
+- 20.4 함수 단위로 strict mode를 적용하는 것도 피하자
+- 20.5 strict mode가 발생시키는 에러
+  - 20.5.1 암묵적 전역
+  - 20.5.2 변수,함수,  매개변수의 삭제
+  - 20.5.3 매개변수 이름의 중복
+  - 20.5.4 with 문의 사용
+- 20.6 strict mode 적용에 의한 변화
+  - 20.6.1 일반 함수의 this
+  - 20.6.2 arguments 객체
 
 ### [21장 빌트인 객체](ch21/21장.md)
 
@@ -374,7 +390,87 @@
   - 27.9.10 Array.prototype.flatMap
 
 
+### [29장 Math](ch29/29장.md)
 
+- 29.1 Math 프로퍼티
+  - 29.1.1 Math.PI
+
+- 29.2 Math 메서드
+  - 29.2.1 Math.abs
+  - 29.2.2 Math.round
+  - 29.2.3 Math.ceil
+  - 29.2.4 Math.floor
+  - 29.2.5 Math.sqrt
+  - 29.2.6 Math.random
+  - 29.2.7 Math.pow
+  - 29.2.8 Math.max
+  - 29.2.9 Math.min
+
+
+### [32장 String](ch32/32장.md)
+
+- 32.1 String 생성자 함수
+- 32.2 length 프로퍼티
+- 32.3 String 메서드
+  - 32.3.1 String.prototype.indexOf
+  - 32.3.2 String.prototype.search
+  - 32.3.3 String.prototype.includes
+  - 32.3.4 String.prototype.startsWith
+  - 32.3.5 String.prototype.endsWith
+  - 32.3.6 String.prototype.charAt
+  - 32.3.7 String.prototype.substring
+  - 32.3.8 String.prototype.slice
+  - 32.3.9 String.prototype.toUpperCase
+  - 32.3.10 String.prototype.toLowerCase
+  - 32.3.11 String.prototype.trim
+  - 32.3.12 String.prototype.repeat
+  - 32.3.13 String.prototype.replace
+  - 32.3.14 String.prototype.split
+
+### [39장 DOM](ch39/39장.md)
+
+- 39.1 노드
+  - 39.1.1 HTML 요소와 노드 객체
+  - 39.1.2 노드 객체의 타입
+  - 39.1.3 노드 객채의 상속 구조
+- 39.2 요소 노드 취득
+  - 39.2.1 id를 이용한 요소 노드 취득
+  - 39.2.2 태그 이름을 이용한 요소 노드 취득
+  - 39.2.3 class 를 이용한 요소 노드 취득
+  - 39.2.4 CSS 선택자를 이용한 요소 노드 취득
+  - 39.2.5 특정 요소 노드를 취득할 수 있는지 확인
+  - 29.2.6 HTMLCollection 과 NodeList
+- 39.3 노드 탐색
+  - 39.3.1 공백 텍스트 노드
+  - 39.3.2 자식 노드 탐색
+  - 39.3.3 자식 노드 존재 확인
+  - 39.3.4 요소 노드의 텍스트 노드 탐색
+  - 39.3.5 부모 노드 탐색
+  - 39.3.6 형제 노드 탐색
+- 39.4 노드 정보 취득
+- 39.5 요소 노드의 텍스트 조작
+  - 39.5.1 nodeValue
+  - 39.5.2 textContent
+- 39.6 DOM 조작
+  - 39.6.1 innerHTML
+  - 39.6.2 insertAdjacentHTML 메서드
+  - 39.6.3 노드 생성과 추가
+  - 39.6.4 복수의 노드 생성과 추가
+  - 39.6.5 노드 삽입
+  - 39.6.6 노드 이동
+  - 39.6.7 노드 복사
+  - 39.6.8 노드 교체
+  - 39.6.9 노드 삭제
+- 39.7 어트리뷰트
+  - 39.7.1 어트리뷰트 노드와 attributes 프로퍼티
+  - 39.7.2 HTML 어트리뷰트 조작
+  - 39.7.3 HTML 어트리뷰트 vs DOM 프로퍼티
+  - 39.7.4 data 어트리뷰트와 dataset 프로퍼티
+- 39.8 스타일
+  - 39.8.1 인라인 스타일 조작
+  - 39.8.2 클래스 조작
+  - 39.8.3 요소에 적용되어 있는 CSS 스타일 참조
+- 39.9 DOM 표준
 
 ### 48장 모듈
 
