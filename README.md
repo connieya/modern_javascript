@@ -505,7 +505,21 @@
 - 42.1 동기 처리와 비동기 처리
 - 42.2 이벤트 루프와 태스크 큐
 
-### 44장 REST API
+### [43장 Ajax](ch43/43장.md)
+
+- 43.1 Ajax 란?
+- 43.2 JSON
+  - 43.2.1 JSON 표기 방식
+  - 43.2.2 JSON.stringify
+  - 43.2.3 JSON,parse
+
+- 43.3 XMLHttpRequest
+  - 43.3.1 XMLHttpRequest 객체 생성
+  - 43.3.2 XMLHttpRequest 객체의 프로퍼티와 메서드
+  - 43.3.3 HTTP 요청 전송
+  - 43.3.4 HTTP 응답 처리
+
+### [44장 REST API](ch44/44장.md)
 
 - 44.1 REST API의 구성
 - 44.2 REST API 설계 원칙
@@ -555,6 +569,14 @@
   - 46.6.1 async 함수
   - 46.6.2 await 키워드
   - 46.6.3 에러 처리
+
+## [47장 에러 처리](ch47/47장.md)
+
+- 47.1 에러 처리의 필요성
+- 47.2 try ... catch ... finally 문
+- 47.3 Error 객체
+- 47.4 throw 문
+- 47.5 에러의 전파
 
 ### 48장 모듈
 
