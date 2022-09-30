@@ -292,7 +292,7 @@
 - 19.12 정적 프로퍼티/메서드
 
 
-### 20장 strict mode
+### [20장 strict mode](ch20/20장.md)
 
 - 20.1 strict mode 란?
 - 20.2 strict modde의 적용
